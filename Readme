@@ -1,0 +1,3 @@
+This is a sentence generator created with ngram model. 
+It trains with the function "create_ngram_model", n is how many words that is token into account and path is the trainning data. 
+"random_text" is the output function, parameter "token_count" is the length of the text.
