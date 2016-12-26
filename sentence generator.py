@@ -1,12 +1,3 @@
-############################################################
-# CMPSC 442: Homework 8
-############################################################
-
-student_name = "Jason Jincheng Tu"
-
-############################################################
-# Imports
-############################################################
 
 # Include your imports here, if any are used.
 import string
@@ -14,9 +5,6 @@ import collections
 import random
 import math
 
-############################################################
-# Section 1: Markov Models
-############################################################
 
 end = '<END>'
 start = '<START>'
@@ -115,19 +103,3 @@ def create_ngram_model(n, path):
         model.update(line)
     return model
 
-############################################################
-# Section 2: Feedback
-############################################################
-
-feedback_question_1 = """
-5 hours
-"""
-
-feedback_question_2 = """
-I had troubles to understand the last part of this assignment. I guess that transform the description to code is not
-very clear, especially for the purpose of last part
-"""
-
-feedback_question_3 = """
-I love random text part. I put many different data in there to test this program. It is so much fun. Thank you so much.
-"""
